@@ -41,5 +41,65 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Will you allow Muzik to always know your location to find nearby events?</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Do you allow Muzik to know your current location to find nearby events?</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb648056098576150</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>SRDR.Muzik</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.1088435112418-4cm46hg39okkf0skj2h5roj1q62anmec</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>twitterkit-Kqprq5b6bVeEfcMAGoHzUmB3I</string>
+			</array>
+		</dict>
+	</array>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>FacebookAppID</key>
+	<string>648056098576150</string>
+	<key>NSCameraUsageDescription</key>
+	<string>To send an image message</string>
+	<key>NSContactsUsageDescription</key>
+	<string>To check if any of your contacts use this app</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>To send location messages</string>
+	<key>NSLocationUsageDescription</key>
+	<string>To send location messages</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>To send audio messages</string>
+	<key>NSLocationWhenInUseUsageDescription - 2</key>
+	<string>To send location messages</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>To save the photo to your library</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>To access your photos to customise your profile or image message</string>
 </dict>
 </plist>
